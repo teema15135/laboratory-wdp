@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_side_margin">10dp</dimen>
+    <dimen name="text_198372_size">20sp</dimen>
+    <dimen name="text_198372_padding">30dp</dimen>
+    <dimen name="content_base_margin">30dp</dimen>
+    <dimen name="content_font_size">30sp</dimen>
+</resources>

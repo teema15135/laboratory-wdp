@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="198372"
+        android:background="#aaffff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginLeft="@dimen/main_side_margin"
+        android:layout_marginRight="@dimen/main_side_margin"
+        android:textSize="@dimen/text_198372_size"
+        android:padding="@dimen/text_198372_padding"
+        />
+    <TextView
+        android:text="Hello"
+        android:background="#aaffaa"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginLeft="@dimen/main_side_margin"
+        android:layout_marginRight="@dimen/main_side_margin"
+        android:textSize="@dimen/text_198372_size"
+        android:gravity="center"
+        />
+    <TextView
+        android:text="Android"
+        android:background="#ffaaaa"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginLeft="@dimen/main_side_margin"
+        android:layout_marginRight="@dimen/main_side_margin"
+        android:textSize="@dimen/text_198372_size"
+        android:gravity="center"
+        />
+
+</LinearLayout>

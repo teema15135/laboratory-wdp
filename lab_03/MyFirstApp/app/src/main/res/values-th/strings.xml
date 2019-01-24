@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">แอนดรอยด์แอปแรกของฉัน</string>
+    <string name="name_label">ชื่อ:</string>
+    <string name="phone_label">โทรศัพท์:</string>
+    <string name="submit_label">ส่ง</string>
+    <string name="middle_text">\u0020มีหมายเลขโทรศัพท์คือ\u0020</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/green"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#009900"
+        android:layout_marginTop="@dimen/content_base_margin"
+        android:layout_marginLeft="@dimen/content_base_margin"
+    />
+
+    <TextView
+        android:id="@+id/yellow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ffff00"
+        android:layout_alignTop="@+id/green"
+        android:layout_toRightOf="@+id/green"
+        />
+
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#6600ff"
+        android:layout_below="@+id/green"
+        android:layout_alignLeft="@id/green"
+        />
+
+    <TextView
+        android:id="@+id/red"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff0000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/purple"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#660033"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+
+
+</RelativeLayout>
