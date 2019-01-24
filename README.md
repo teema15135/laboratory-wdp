@@ -4,7 +4,9 @@
 ใน repo นี้ คุณสามารถเลือกดู Code ของแลปต่าง ๆ ดังนี้
 <details>
 <summary>Lab 03</summary>
-- [MyFirstApp](https://github.com/teema15135/laboratory-wdp/tree/master/lab_03/MyFirstApp)
-- [FavoriteToys](https://github.com/teema15135/laboratory-wdp/tree/master/lab_03/FavoriteToys)
+<ul>
+<li><a href="https://github.com/teema15135/laboratory-wdp/tree/master/lab_03/MyFirstApp">MyFirstApp</a></li>
+<li><a href="https://github.com/teema15135/laboratory-wdp/tree/master/lab_03/FavoriteToys">FavoriteToys</a></li>
+</ul>
 </details>
 
