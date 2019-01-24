@@ -5,8 +5,8 @@
 <details>
 <summary>Lab 03</summary>
 <ul>
-<li><a href="https://github.com/teema15135/laboratory-wdp/tree/master/lab_03/MyFirstApp">MyFirstApp</a></li>
-<li><a href="https://github.com/teema15135/laboratory-wdp/tree/master/lab_03/FavoriteToys">FavoriteToys</a></li>
+<li><a href="https://github.com/teema15135/laboratory-wdp/tree/master/lab_03/MyFirstApp" target="_blank">MyFirstApp</a></li>
+<li><a href="https://github.com/teema15135/laboratory-wdp/tree/master/lab_03/FavoriteToys" target="_blank">FavoriteToys</a></li>
 </ul>
 </details>
 
