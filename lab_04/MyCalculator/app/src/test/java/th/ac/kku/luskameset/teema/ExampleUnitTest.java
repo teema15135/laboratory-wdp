@@ -1,4 +1,4 @@
-package th.ac.kku.luskameset.mycalculator;
+package th.ac.kku.luskameset.teema;
 
 import org.junit.Test;
 

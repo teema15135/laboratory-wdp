@@ -1,4 +1,4 @@
-package th.ac.kku.luskameset.mycalculator;
+package th.ac.kku.luskameset.teema;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

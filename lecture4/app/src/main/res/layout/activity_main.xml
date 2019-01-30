@@ -10,6 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:weightSum="3"
         >
         <EditText
@@ -18,7 +19,8 @@
             android:inputType="number"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:nextFocusDown="@id/o2"/>
         <EditText
             android:id="@+id/o2"
             android:gravity="center"
@@ -32,15 +34,50 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
     </LinearLayout>
+    <Button
+        android:id="@+id/cal"
+        android:text="CALCULATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree"
+        android:checked="true"/>
 
     <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/cal"
-            android:text="CALCULATE"
+        android:layout_height="wrap_content"
+        >
+        <RadioGroup
+            android:id="@+id/operatorRbGroup"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:checkedButton="@id/rbAdd">
+            <RadioButton
+                android:id="@+id/rbAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"/>
+            <RadioButton
+                android:id="@+id/rbSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"/>
+            <RadioButton
+                android:id="@+id/rbMul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*"/>
+            <RadioButton
+                android:id="@+id/rbDiv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"/>
+        </RadioGroup>
     </LinearLayout>
 
 
