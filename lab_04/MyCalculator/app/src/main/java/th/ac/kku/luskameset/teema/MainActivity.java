@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Switch;
 import android.widget.TextView;
@@ -55,14 +54,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void acceptNumber() {
-        if (o1.getText().toString().isEmpty() || o2.getText().toString().isEmpty()) {
+        try {
+            calculate(operatorGroup.getCheckedRadioButtonId());
+        } catch (NumberFormatException e) {
             showToast("Please enter only a number");
-            return;
         }
-        calculate(operatorGroup.getCheckedRadioButtonId());
     }
 
     private void calculate(int id) {
+        long start = System.currentTimeMillis();
         float result;
         float val1 = Float.parseFloat(o1.getText().toString());
         float val2 = Float.parseFloat(o2.getText().toString());
@@ -88,7 +88,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 return;
         }
         resText.setText("= " + Float.toString(result));
-        Log.d("Calculation", "Result = " + result);
+        long runTime = System.currentTimeMillis() - start;
+//        Log.d("Calculation", "Result = " + result);
+        Log.d("Calculation", "computation time = " + Float.toString((((float)runTime))/1000.0f ));
     }
 
     private void showToast(String text) {
