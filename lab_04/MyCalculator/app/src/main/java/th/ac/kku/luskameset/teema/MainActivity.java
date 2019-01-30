@@ -60,18 +60,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void acceptNumber() {
         start = System.currentTimeMillis();
-        val1 = Float.parseFloat(o1.getText().toString());
-        val2 = Float.parseFloat(o2.getText().toString());
+        try {
+            val1 = Float.parseFloat(o1.getText().toString());
+            val2 = Float.parseFloat(o2.getText().toString());
+            calculate(operatorGroup.getCheckedRadioButtonId());
+        } catch (NumberFormatException e) {
+            showToast("Please enter only a number");
+        }
     }
 
     private void calculate(int id) {
         float result;
-
-        try{
-            acceptNumber();
-        } catch(Exception e) {
-            showToast("Please enter only a number");
-        }
 
         switch (id) {
             case R.id.rbAdd:
@@ -100,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void showToast(String text) {
-        Toast toast =  Toast.makeText(context, text, TOASTS_DURATION);
+        Toast toast =  Toast.makeText(MainActivity.this, text, TOASTS_DURATION);
         toast.setGravity(Gravity.BOTTOM, 0, 100);
         toast.show();
     }
@@ -112,13 +111,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if (v == calcBtn) {
-            calculate(operatorGroup.getCheckedRadioButtonId());
+            acceptNumber();
         }
     }
 
     @Override
     public void onCheckedChanged(RadioGroup group, int checkedId) {
-        calculate(operatorGroup.getCheckedRadioButtonId());
+        acceptNumber();
     }
 
     @Override
