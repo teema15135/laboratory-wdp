@@ -8,5 +8,13 @@
 <li><a href="https://github.com/teema15135/laboratory-wdp/tree/master/lab_03/MyFirstApp/app/src/main">MyFirstApp</a></li>
 <li><a href="https://github.com/teema15135/laboratory-wdp/tree/master/lab_03/FavoriteToys/app/src/main">FavoriteToys</a></li>
 </ul>
+
 </details>
 
+<details>
+<summary>Lecture 04 (30 January 2019)</summary>
+<ul>
+<li><a href="https://github.com/teema15135/laboratory-wdp/tree/master/lecture4/app/src/main">Simple Add Calculator</a></li>
+</ul>
+
+</details>
