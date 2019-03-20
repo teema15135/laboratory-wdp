@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Calculator</string>
+    <string name="main_cal_btn">CALCULATE</string>
+    <string name="welcome_center_msg_a">Welcome to Clipzy</string>
+    <string name="welcome_center_msg_b">Clip anything from over</string>
+    <string name="welcome_center_msg_c">100,000 hot topics</string>
+    <string name="get_stared">Get Stared</string>
+    <string name="skip">Skip</string>
+    <string name="policy_description">By continuing, you accept the Term of Use and Privacy Policy</string>
+</resources>

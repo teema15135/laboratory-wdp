@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WDPViewDemo</string>
+    <string name="khon_kaen_university">Khon Kaen University</string>
+    <string name="khon_kaen">Khon Kaen</string>
+    <string name="add">ADD</string>
+</resources>
