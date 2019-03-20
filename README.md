@@ -44,7 +44,7 @@
 <summary>Save Instance (Portrait >> Lanscape save Instance)</summary>
 <ul>
 <li>
-    <a href="https://github.com/teema15135/laboratory-wdp/tree/master/lecture07/app/src/main"></a>
+    <a href="https://github.com/teema15135/laboratory-wdp/tree/master/lecture07/app/src/main">saveInstance</a>
 </li>
 </ul>
 </details>
