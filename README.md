@@ -26,3 +26,25 @@
 </ul>
 
 </details>
+
+<details>
+<summary>Intent</summary>
+<ul>
+<li>
+    <a href="https://github.com/teema15135/laboratory-wdp/tree/master/ImplicitIntent/app/src/main">Implicit Intent</a>
+</li>
+<li>
+    <a href="https://github.com/teema15135/laboratory-wdp/tree/master/">Explicit Intent (startActivityForResult)</a>
+</li>
+</ul>
+
+</details>
+
+<details>
+<summary>Save Instance (Portrait >> Lanscape save Instance)</summary>
+<ul>
+<li>
+    <a href="https://github.com/teema15135/laboratory-wdp/tree/master/lecture07/app/src/main"></a>
+</li>
+</ul>
+</details>
