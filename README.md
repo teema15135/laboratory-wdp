@@ -34,17 +34,17 @@
     <a href="https://github.com/teema15135/laboratory-wdp/tree/master/ImplicitIntent/app/src/main">Implicit Intent</a>
 </li>
 <li>
-    <a href="https://github.com/teema15135/laboratory-wdp/tree/master/">Explicit Intent (startActivityForResult)</a>
+    <a href="https://github.com/teema15135/laboratory-wdp/tree/master/lecture07/app/src/main">Explicit Intent (startActivityForResult)</a>
 </li>
 </ul>
 
 </details>
 
 <details>
-<summary>Save Instance (Portrait >> Lanscape save Instance)</summary>
+<summary>Save Instance (Portrait >> Lanscape แล้วค่าไม่หาย)</summary>
 <ul>
 <li>
-    <a href="https://github.com/teema15135/laboratory-wdp/tree/master/lecture07/app/src/main">saveInstance</a>
+    <a href="https://github.com/teema15135/laboratory-wdp/tree/master/WDPViewDemo/app/src/main">saveInstance</a>
 </li>
 </ul>
 </details>
