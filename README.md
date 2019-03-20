@@ -34,7 +34,7 @@
     <a href="https://github.com/teema15135/laboratory-wdp/tree/master/ImplicitIntent/app/src/main">Implicit Intent (พวกเปิด Contact, Map, โทร และเว็บไซต์)</a>
 </li>
 <li>
-    <a href="https://github.com/teema15135/laboratory-wdp/tree/master/lecture07/app/src/main">Explicit Intent (startActivityForResult เปลี่ยนระหว่าง 2 หน้า)</a>
+    <a href="https://github.com/teema15135/laboratory-wdp/tree/master/lab7p1/app/src/main">Explicit Intent (startActivityForResult เปลี่ยนระหว่าง 2 หน้า)</a>
 </li>
 </ul>
 
